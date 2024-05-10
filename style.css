@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+    
+}
+ .whole{
+    width: 100vw;
+    height: 100vh;
+    background-color:#fefdf9;
+    font-size: 15px;
+    margin: 0;
+    padding: 0;
+    
+ } 
+.whole p{
+    color:   hsl(236, 13%, 42%);
+} 
+.w{
+    margin-left: 10%;
+    margin-top: 5%;
+    font-size: 60px;
+    margin-bottom: 1px;
+
+}
+
+.home{
+    
+    background-color:transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.heading{
+    display: flex;
+    gap: 10px;
+    margin-left: 70%;
+    margin-bottom: 2%;
+
+}
+
+.container{
+    width: 80%;
+    height: 75vh;
+    background-color: transparent;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(2);
+    grid-template-areas: 'one two'
+                          'bot bot';
+     
+}
+.cont1{
+    background-color:transparent;
+    grid-area: one;
+
+}
+.cont2{
+   grid-area: two;
+    background-color: #00001a;
+    color: white;
+    display: grid;
+
+}
+.cont2 div{
+    text-align: left;
+    margin-left: 10px;
+    height: 80%;
+
+    gap: 2px;
+    
+
+}
+.cont2 h1{
+    color: #e0a85d;
+}
+   
+.title{
+    display: flex;
+    
+}
+
+button{
+    background-color: hsl(5, 85%, 63%);
+    margin-left: 60%;
+    width: 100px;
+    height: 40px;
+    color: white;
+    margin-top: 20px;
+}
+.bottom{
+    background-color: transparent;
+    grid-area: bot;
+}
+.bottom{
+    width: 100%;
+    height: 80%;
+    display: flex;
+
+}
+
+.one,.two ,.three{
+    display: flex;
+    height: 100%;
+    margin-right: 2%;
+    text-align: left;
+    gap: 10px;
+
+}
+
+
+.one,.two ,.three h3{
+    color:black;
+}
