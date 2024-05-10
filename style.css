@@ -1,7 +1,12 @@
+@font-face {
+    font-family: 'inter';
+    src: url(Inter-VariableFont_slnt\,wght.ttf);
+
+}
 *{
     margin: 0;
     padding: 0;
-    
+    font-family:'inter',sans-serif;
     
 }
  .whole{
@@ -18,8 +23,9 @@
 } 
 .w{
     margin-left: 10%;
-    margin-top: 5%;
+    margin-top: 10%;
     font-size: 60px;
+    width: 100px;
     margin-bottom: 1px;
 
 }
@@ -36,6 +42,7 @@
     gap: 10px;
     margin-left: 70%;
     margin-bottom: 2%;
+    color: hsl(236, 13%, 42%);
 
 }
 
@@ -44,7 +51,7 @@
     height: 75vh;
     background-color: transparent;
     display: grid;
-    gap: 10px;
+    gap: 20px;
     grid-template-columns: repeat(2);
     grid-template-areas: 'one two'
                           'bot bot';
@@ -66,17 +73,23 @@
     text-align: left;
     margin-left: 10px;
     height: 80%;
-
+    width: 80%;
+    border-bottom:1px solid gray;
     gap: 2px;
+    padding: 2px;
+    margin-left: 20px;
     
 
 }
 .cont2 h1{
     color: #e0a85d;
+    margin-left: 20px;
+    margin-top: 20px;
 }
    
 .title{
     display: flex;
+    gap: 20px;
     
 }
 
